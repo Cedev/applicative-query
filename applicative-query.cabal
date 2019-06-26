@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 42f783cf10e6ff33b2ea1d197f60848b1d97d52184c7b02794f346e60d473d4d
+-- hash: 00a1aff1acb990a7b3c62af51e72b78a662a1de4fd04a20d728a502adcec9301
 
 name:           applicative-query
 version:        0.1.0.0
@@ -26,6 +26,9 @@ source-repository head
 
 library
   exposed-modules:
+      Data.Model.Class
+      Data.Model.Queriable
+      Data.Model.Query
       Lib
   other-modules:
       Paths_applicative_query
